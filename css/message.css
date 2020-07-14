@@ -1,0 +1,35 @@
+*{
+  text-align: center;
+}
+.new{
+  transform: translate(20%);
+}
+.top{
+  width: 60%;
+  overflow-x: scroll;
+  height: 6em;
+}
+.message{
+  border: 1px #e2e1e1 solid;
+  width: 60%;
+  height: 500px;
+  margin-top: 2em;
+}
+.top-title{
+  border-bottom: 1px #e2e1e1 solid;
+  height: 12vh;
+}
+.message-display{
+  height: 360px;
+  overflow-y: scroll;
+}
+.message-input{
+  border-radius: 20px;
+  border: 1px #e2e1e1 solid;
+  padding: 10px 10px 10px 10px;
+  width: 80%;
+}
+.message-send{
+
+  padding: 10px 10px 10px 10px;
+}

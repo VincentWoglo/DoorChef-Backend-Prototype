@@ -1,0 +1,138 @@
+*{
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  text-align: center;
+}
+.describe{
+
+  font-family: 'Barlow', sans-serif;
+  margin-bottom: 1em;
+  font-size: 1.5rem;
+}
+.firstname,.lastname{
+  display: inline-block;
+}
+*{
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  text-align: center;
+}
+.error{
+  margin-top: 1em;
+}
+.registration{
+  margin-top: 2em;
+}
+.firstname,.lastname,.password,.re-password,.position,.price,.area,.number{
+
+  padding: 10px 10px 10px;
+  width: 200px;
+  border-radius: 2px;
+  border: 1px #e2e1e1 solid;
+  margin-bottom: 1em;
+}
+.city,.zip,.suit{
+  padding: 10px 10px 10px;
+  width: 90px;
+  border-radius: 2px;
+  border: 1px #e2e1e1 solid;
+  margin-bottom: 1em;
+}
+.lastname,.city,.re-password,.price{
+  margin-left: 1em;
+}
+.email,.username,.education{
+  padding: 10px 10px 10px;
+  width: 435px;
+  border-radius: 2px;
+  border: 1px #e2e1e1 solid;
+  margin-bottom: 1em;
+}
+.date-title{
+  font-size: .7rem;
+  margin-right: 25em;
+  margin-bottom: 1em;
+}
+.birth,.state,.street{
+  padding: 10px 10px 10px;
+  width: 300px;
+  border-radius: 2px;
+  border: 1px #e2e1e1 solid;
+}
+.gender{
+  margin-left: 1em;
+  padding: 10px 10px 10px;
+  width: 100px;
+  border-radius: 20px;
+  background-color: #1dbf73;
+  color: #fff;
+  border: 1px #1dbf73 solid;
+}
+.Country{
+   margin-left: 1em;
+   padding: 10px 10px 10px;
+   width: 100px;
+   border-radius: 2px;
+   background-color: #0065ff;
+   border-radius: 20px;
+   color: #fff;
+   border: 1px #0065ff solid;
+   margin-bottom: 1em;
+}
+.description{
+  padding: 10px 10px 10px;
+  width: 425px;
+  height: 200px;
+}
+.signin{
+  padding: 10px 100px 10px 100px;
+  border-radius: 20px;
+  border: 1px #0065ff solid;
+  margin-top: 1em;
+  background: #fff;
+  color: #0065ff;
+  font-weight: bold;
+  font-size: .875rem;
+}
+.agreement,.agreed{
+  display: inline-block;
+}
+.agreed{
+  margin-top: 2em;
+  max-width: 20%;
+  min-width: 20em;
+  width: 20%;
+}
+.signup{
+    padding: 10px 100px 10px 100px;
+  border-radius: 20px;
+  border: 1px #0065ff solid;
+  background: #0065ff;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 2em;
+  font-weight: bold;
+  font-size: .875rem;
+}
+.already-title{
+  margin-top: 3em;
+}
+/* footer*/
+.footer{
+  background-color: #ffffff;
+  padding: 10px 10px 10px 10px;
+  margin-top: 7em;
+  color: #000;
+  border-top: 2px #e6e7e8 solid;
+  height: 4vh;
+}
+.terms,.privacy,.about,.help,.copy{
+  display: inline-block;
+  margin-left: 2em;
+}
+.copy{
+  float: right;
+  margin-right: 2em;
+}

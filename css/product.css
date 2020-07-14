@@ -1,0 +1,158 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.chef-info,.img-title{display: inline-block;
+}
+a:link{
+  text-decoration: none;
+}
+.image{
+  width: 100%;
+  max-width: 100%;
+}
+.p-gig,.t-gig{
+  display: inline-block;
+  margin-top: .5em;
+  color: #555;
+}
+.t-gig{
+
+  margin-left: 24%;
+}
+.gig-title{
+  margin-top: 1em;
+  font-size: 1.2rem;
+  color: #1d2129;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.message-gig{
+  padding: 10px 10px 10px 10px;
+  width: 100px;
+  margin-top: 2em;
+  border: 2px #4a73e8 solid;
+  background-color: #4a73e8;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.message-gig:hover{
+  transition: 1s;
+  -webkit-transition: 1s;
+  border: 2px #4a73e8 solid;
+  background-color:#ffffff;
+  color: #1dbf73;
+}
+.desc{
+  width: 50%;
+  margin-top: 2em;
+  color: #7a7d85;
+  margin-left: 25%;
+}
+.c-email,.c-phone,.c-location,.c-date,.c-education,.c-price{
+  color: #3a3a3a;
+}
+.chef-info{
+  margin-top: 2em;
+  margin-bottom: 2em;
+  width: 100%;
+  border: 1px #f4f6f8 solid;
+  background-color: #f7f7f7;
+  color: #000;
+}
+.about-t{
+  margin-top: .5em;
+  font-size: 1.2rem;
+}
+.hr{
+  margin-top: .5em;
+  margin-bottom: 1em;
+  border: 1px #e2e1e1 solid;
+  width: 20%;
+  margin-left: 40%;
+}
+.similar-gigs{
+  font-size: 1.2rem;
+}
+
+
+.location,.foodtype{
+  display: inline-block;
+  font-size: .9rem;
+  color: #90949c;
+  margin-bottom: .5em;
+}
+
+.img{
+  width: 100%;
+}
+.title{
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px ;
+  margin-bottom: 5px;
+  font-size: 1.3rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.container{
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 12px;
+  }
+  .title{
+    font-size: 1rem;
+    max-width: 75%;
+    color: #1d2129;
+  }
+.price{
+  position: absolute;
+  margin: 2px;
+  color: #ffff;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 2px;
+  border: 1px rgba(0, 0, 0, 0.8) solid;
+  padding: 5px ;
+}
+
+.container .product{
+cursor: pointer;
+position: relative;
+width: 276px;
+border: 1px #dadde1 solid;
+text-align: center;
+box-sizing: border-box;
+}
+.overflow{
+  margin-top: 2em;
+}
+.seperate{
+  margin-top: 2em;
+  border: 1px #dadde1 solid;
+}
+.comments{
+  background-color: #111419;
+}
+.review{
+  margin-top: 4em;
+  padding: 20px 20px 10px;
+  width: 50%;
+  border: 1px #111419 solid;
+  border-radius: 2px;
+  background-color: #f3f3f3;
+}
+.comment-review{
+  padding: 10px 10px 10px 10px;
+  border: 1px #1dbf73 solid;
+  color: #fff;
+  background-color: #1dbf73;
+  margin-left: 42%;
+  margin-top:  .5em;
+}

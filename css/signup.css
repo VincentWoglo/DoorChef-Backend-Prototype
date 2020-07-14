@@ -1,0 +1,101 @@
+*{
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: 'Barlow', sans-serif;
+}
+.logo{
+  font-family: 'Cedarville Cursive', cursive;
+  margin-bottom: 1em;
+}
+.logo a{
+  color: #000021;
+  text-decoration: none;
+  font-family: 'Cedarville Cursive', cursive;
+  margin-bottom: 2em;
+}
+.description{
+  margin-bottom: 1em;
+  font-size: 1.5rem;
+}
+.container{
+
+  text-align: center;
+}
+.firstname{
+  padding: 15px 80px 15px 15px;
+  border-radius: 2px;
+  border: 1px #9d9fa2 solid;
+}
+.lastname,.username,.email,.password{
+    margin-top: 1em;
+    padding: 15px 80px 15px 15px;
+    border-radius: 2px;
+    border: 1px #9d9fa2 solid;
+}
+.signup{
+    padding: 10px 100px 10px 100px;
+  border-radius: 20px;
+  border: 1px #0065ff solid;
+  background: #0065ff;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 2em;
+  font-weight: bold;
+  font-size: .875rem;
+}
+.have-account{
+  margin-top: 3em;
+}
+.error{
+  text-align: center;
+  color: #f91212;
+  margin-top: .5em;
+}
+.signin{
+  padding: 10px 100px 10px 100px;
+  border-radius: 20px;
+  border: 1px #0065ff solid;
+  margin-top: 1em;
+  background: #fff;
+  color: #0065ff;
+  font-weight: bold;
+  font-size: .875rem;
+}
+.signupc{
+  padding: 10px 45px 10px 45px;
+  border-radius: 20px;
+  border: 1px #0065ff solid;
+  background: #0065ff;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 2em;
+  font-weight: bold;
+  font-size: .875rem;
+}
+.agreement,.agreed{
+  display: inline-block;
+}
+.agreed{
+  margin-top: 2em;
+  max-width: 20%;
+  min-width: 20em;
+  width: 20%;
+}
+/* footer*/
+.footer{
+  background-color: #ffffff;
+  padding: 10px 10px 10px 10px;
+  margin-top: 7em;
+  color: #000;
+  border-top: 2px #e6e7e8 solid;
+  height: 4vh;
+}
+.terms,.privacy,.about,.help,.copy{
+  display: inline-block;
+  margin-left: 2em;
+}
+.copy{
+  float: right;
+  margin-right: 2em;
+}

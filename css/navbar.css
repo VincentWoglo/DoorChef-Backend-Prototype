@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: 'Barlow', sans-serif;
+}
+.logo,.search,.right-menu{
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: 2em;
+  display: inline-block;
+  color: #ffffff;
+}
+.logo{
+  font-family: 'Cedarville Cursive', cursive;
+  color: #1dbf73;
+}
+.logo a {
+  text-decoration: none;
+  font-family: 'Cedarville Cursive', cursive;
+  display: inline-block;
+  color: #f0754f;
+}
+.w,.s,.u{
+
+  display: inline-block;
+  margin-left: 2em;
+}
+.w a, .s a,.u a{
+  text-decoration: none;
+  color: #ffffff;
+}
+.search{
+  padding: 10px 10px 10px;
+  width: 30%;
+  border: 1px #f0754f solid;
+  background: #fff;
+  border-radius: 2px;
+  color: #000;
+}
+.searchBtn{
+  padding: 10px 10px 10px 10px;
+  cursor: pointer;
+  border: 1px #f0754f solid;
+  color: #fff;
+  background-color: #f0754f;
+}
+.searchBtn:hover{
+  border: 1px #d64848 solid;
+background-color: #d64848;
+}
+.nav{
+  background: linear-gradient(90deg, #424950,#23292d 50%,#212529);
+  color:  #fff;
+  height: 15vh;
+  border-bottom: 1px #212529 solid;
+}

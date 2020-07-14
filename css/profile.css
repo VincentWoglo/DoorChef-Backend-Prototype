@@ -1,0 +1,46 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+.firstname,.lastname,.email{
+	font-size: 1.2rem;
+}
+.firstname,.desc{
+	display: inline-block;
+	margin-top: .5em;
+	margin-bottom: .5em;
+}
+.lastname,.descn{
+	display: inline-block;
+	margin-top: .5em;
+	margin-bottom: .5em;
+}
+.username,.password,.dob,.street,.city,.state,.zip,.suit,.position,.price,.areacode,.phone{
+	padding: 10px 30px 10px 30px;
+}
+.update{
+	  padding: 10px 90px 10px 90px;
+  border-radius: 20px;
+  border: 1px #0065ff solid;
+  background: #0065ff;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 2em;
+  font-weight: bold;
+  font-size: .875rem;
+ }
+ .whole{
+ 	margin-top: 2em;
+ }
+ .sub-password{
+ 	font-size: .7rem;
+ 	margin-left: 10em;
+ 	margin-top: .5em;
+ }
+ .city,.zip,.position,.areacode{
+ 	margin-top: 2em;
+}
+.password,.street,.state,.suit,.price,.phone{
+	margin-left: 2em;
+}
